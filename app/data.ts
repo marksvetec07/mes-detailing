@@ -1,0 +1,58 @@
+export const services = [
+  {
+    id: "zunanje",
+    name: "Zunanje čiščenje",
+    price: 15,
+    duration: "1 ura",
+    short: "Osnovno ročno pranje zunanjosti vozila.",
+    bestFor: "Za redno vzdrževanje in hitro osvežitev vozila.",
+    includes: [
+      "Predpranje z aktivno peno",
+      "Ročno pranje karoserije",
+      "Čiščenje platišč",
+      "Sušenje vozila",
+    ],
+  },
+  {
+    id: "notranje",
+    name: "Notranje čiščenje",
+    price: 25,
+    duration: "1.5 ure",
+    short: "Temeljito čiščenje notranjosti vozila.",
+    bestFor: "Za vozila, ki potrebujejo svežo in urejeno notranjost.",
+    includes: [
+      "Sesanje celotne notranjosti",
+      "Brisanje armature",
+      "Čiščenje plastik",
+      "Čiščenje notranjih stekel",
+    ],
+  },
+  {
+    id: "komplet",
+    name: "Komplet čiščenje",
+    price: 35,
+    duration: "2.5 ure",
+    short: "Zunanje in notranje čiščenje v enem paketu.",
+    bestFor: "Najboljša izbira za redno vzdrževanje vozila.",
+    includes: [
+      "Vse iz zunanjega čiščenja",
+      "Vse iz notranjega čiščenja",
+      "Ugodnejša paketna cena",
+      "Celostna osvežitev vozila",
+    ],
+  },
+  {
+    id: "globinsko",
+    name: "Globinsko čiščenje",
+    price: 90,
+    duration: "4 ure",
+    short: "Temeljito globinsko čiščenje sedežev in tekstila.",
+    bestFor: "Za madeže, vonjave, umazane sedeže in bolj zahtevna vozila.",
+    includes: [
+      "Globinsko čiščenje sedežev",
+      "Ekstrakcijsko čiščenje",
+      "Odstranjevanje madežev",
+      "Osvežitev notranjosti",
+    ],
+  },
+];
